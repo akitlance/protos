@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package secure;
 
-option go_package = "auth.v1;authv1";
+option go_package = "sso.v1;ssov1";
 
 service Auth {
   rpc SignUp (SignUpRequest) returns (SignUpResponse);
